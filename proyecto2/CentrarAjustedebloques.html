@@ -1,0 +1,279 @@
+<!DOCTYPE html> <!-- Indica Al Navegador Que El Documento Es HTMl5 -->
+<html lang="es"> <!-- HTML ES UN LENGUAJE ETIQUETADO. Aqui Inicia El Documento Web y El Lenguaje HTML -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Centrar Ajuste De Bloques </title>
+
+    <!-- PERMITE QUE TE COMENTE QUE ME COSTO LA VIDA REALIZAR ESTE EJERCICO. TE AGRADECERIA QUE NO me lo vuelvas a pedir. MUchisimas gracias Ivan-->
+    <style>
+ body{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+  
+    #Filaheader{
+        width: 100%;
+        height: 33.33%;
+        background-color:pink;
+        }
+
+    #Filamain{
+        width: 100%;
+        height: 33.33%;
+        background-color:antiquewhite;
+        }
+    #Filafooter{
+
+        width: 100%;
+        height: 33.33%;
+        background-color: darkkhaki;
+        }
+
+.Cubo33x100morado{
+       width: 33.33%;
+       height:100%;
+       background-color:rgb(115, 102, 126);
+       display:inline-block;
+    }
+.Cubo33x100azul{
+       width: 33.33%;
+       height:100%;
+       background-color: rgb(205, 223, 255);
+       display:inline-block;
+    }
+.Fila100x50blanco{
+       width:100%;
+       height:50%;
+       background-color: rgb(255, 255, 255);
+       
+    }
+.Fila100x50naranja{
+       width:100%;
+       height:50%;
+       background-color:navajowhite;
+      
+    }
+
+.Cubo50x100verde{
+       width:50%;
+       height:100%;
+       background-color: rgb(255, 255, 237);
+       display:inline-block;
+
+}
+.Cubo50x100rojo{
+       width:50%;
+       height:100%;
+       background-color: rgb(248, 198, 255);
+       display:inline-block;
+}
+
+.Fila100x33naranja{
+width:100% ;
+height:33.3%;
+background-color: navajowhite;
+}
+.Fila100x33blanco{
+width:100%;
+height:33.3%;
+background-color:rgb(255, 255, 255);
+}
+
+.Cubo33x100naranja{
+width:33%;
+height:100%;
+background-color: navajowhite;
+display: inline-block;
+}
+
+.Cubo33x100blanco{
+width:33%;
+height:100%;
+background-color: rgb(255, 255, 255);
+display: inline-block;
+}
+.Fila100x25azul{
+    width: 49%;
+    height: 24%;
+    background-color: rgb(192, 208, 250);
+    display: inline block;
+   
+
+} 
+.Fila100x50morado{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.Filas100x25naranja{
+    width: 100%;
+    height: 25%;
+    background-color: navajowhite;
+}
+.Filas100x25gris{
+    width: 100%;
+    height: 25%;
+    background-color: gainsboro;
+}
+.Cubo25x100gris{
+    width:25%;
+    height:100%;
+    background-color: rgb(255, 202, 202);
+    display: inline-block;
+    
+}
+.Cubo25x100naranja{
+    width:25%;
+    height:100%;
+    background-color: rgb(255, 224, 177);
+    display: inline-block;
+}
+.Fila100x25roja{
+    width:100%;
+    height:25%;
+    background-color: rgb(152, 255, 255);
+}
+
+.Fila1{
+    width:100%;
+    height:25%;
+    background-color: rgb(255, 255, 129);
+}
+
+.Fila2{
+    width:100%;
+    height:25%;
+    background-color: rgb(255, 255, 99);
+}
+
+
+.Fila3{
+    width:100%;
+    height:50%;
+    background-color: rgb(114, 114, 55);
+}
+.fila25azul2{
+    width: 49%;
+    height: 24%;
+    display: inline-block;
+}
+.centrar{
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    margin: 10%;
+}
+</style>
+
+</head>
+
+<body>
+    <!-- en el body le cree un div con una clase y a si poder centrar mis cubos -->
+<div class="centrar">
+
+
+<!--Primera Fila Del Cuadrado-->
+    <header id="Filaheader">
+        <div class="Cubo33x100morado"><!--Aqui Empieza El Primer Cubo-->
+            
+            <div class="Fila100x50blanco"><!--Fila primera del primer cubo-->
+              <div class="Cubo50x100verde">
+              </div><div class="Cubo50x100rojo"></div>  
+            </div> <!-- fin de la primera fila del primer cubo -->
+            
+            <div class="Fila100x50naranja"> <!--Fila segunda del primer cubo-->
+                <div class="Cubo50x100rojo"></div><div class="Cubo50x100verde"></div>
+            </div><!--Fin De La Segunda Fila Del Primer Cubo-->
+                
+
+        </div><div class="Cubo33x100azul"><!--Aqui Empieza El Segundo Cubo-->
+            <div class="Fila100x50blanco"><!--Fila primera del primer cubo--></div>
+            <div class="Fila100x50naranja"><!--Fila segunda del segundo cubo--></div>
+            <!--Fin del Segundo Cubo De La Primera Fila -->
+
+        </div><div class="Cubo33x100morado"><!--Aqui Empieza El Tercer Cubo-->
+            <div class="Cubo50x100verde">
+            </div><div class="Cubo50x100rojo"></div>  
+        <!-- Fin De La Tercera Fila Del Primer Cubo -->
+        </div>
+    </header>
+
+<!--Segunda Fila Del Cuadro-->
+    <main id="Filamain">
+        <div class="Cubo33x100azul"><!--Aqui Empiza El Primer Cubo -->
+            <div class="Fila100x33naranja"></div><!--Fila primera del cuarto cubo-->
+            <div class="Fila100x33blanco"></div><!--Fila segunda del cuarto cubo-->
+            <div class="Fila100x33naranja"></div><!--Fila tercera del cuarto cubo-->
+   <!--Fin del Primer cubo -->
+
+        </div><div class="Cubo33x100morado"><!--Aqui Empieza El Segundo Cubo-->
+        </div><!--Fin Del Segundo Cubo--><div class="Cubo33x100azul"> 
+            <!--Aqui Empieza El Tercer Cubo-->
+            <div class="Cubo33x100blanco">
+             </div><div class="Cubo33x100naranja">
+            </div><div class="Cubo33x100blanco"> </div>
+        </div>
+        <!-- Fin Del TERCER Cubo -->
+    </main>
+
+    <!--Tercera Fila Del Cuadro-->
+    <footer id="Filafooter">
+        <div class="Cubo33x100morado"><!--Aqui Empieza El Primer Cubo-->
+            <div class="Fila100x25azul"></div>
+            <div class="Fila100x50morado"></div>
+
+
+        </div><div class="Cubo33x100azul"><!--Aqui Empieza El Segundo Cubo-->
+            
+            <div class="Filas100x25naranja"><!-- Principio De La Primera Fila -->
+           
+                <div class="Cubo25x100gris"></div><div class="Cubo25x100naranja"></div><div class="Cubo25x100gris"></div><div class="Cubo25x100naranja"></div>
+                
+            </div> <!-- Fin De la Primera Linea DEl Segundo Cubo -->
+            
+            <div class="Filas100x25gris"> <!-- Principio De la Segunda Fila Del Segundo Cubo -->
+                
+                <div class="Cubo25x100naranja"></div><div class="Cubo25x100gris"></div><div class="Cubo25x100naranja"></div><div class="Cubo25x100gris"></div>
+            
+            </div> <!-- Fin De la segunda Linea DEl Segundo Cubo -->
+            
+            <div class="Filas100x25naranja"> <!-- Principio De la Tercera Fila Del Segundo Cubo -->
+                
+                <div class="Cubo25x100gris"></div><div class="Cubo25x100naranja"></div><div class="Cubo25x100gris"></div><div class="Cubo25x100naranja"></div>
+
+            </div> <!-- Fin De la tercera Linea DEl Segundo Cubo -->
+            
+            <div class="Filas100x25gris"> <!-- Principio De La Cuarta Fila Del Segundo Cubo -->
+            
+                <div class="Cubo25x100naranja"></div><div class="Cubo25x100gris"></div><div class="Cubo25x100naranja"></div><div class="Cubo25x100gris"></div>
+
+            </div> <!-- Fin De La Cuarta Fila Del Segundo Cubo -->
+
+
+        </div><div class="Cubo33x100morado"><!--Aqui Empieza El Tercer Cubo-->
+            <div class="Fila1"></div><!--Fila Primera Del Tercer Cubo-->
+            <div class="Fila2"></div><!--Fila Segunda Del Tercer Cubo-->
+            <div class="Fila3"><!--Fila Tercera Del Tercer Cubo-->
+                 <div class="Cubo33x100morado"> <!--Primer Cubo De La Tercera Fila  -->
+                 </div><div class="Cubo33x100blanco"><!-- Segundo Cubo De La Tercera Fila -->
+                 </div><div class="Cubo33x100morado"><!-- Tercer Cubo De La Tercera Fila -->
+                    <div class="Fila100x50blanco">
+                        <div class="Cubo50x100verde">
+                        </div><div class="Cubo50x100rojo"></div>  
+                    </div> <!-- fin de la primera fila del primer cubo -->
+                  
+                  <div class="Fila100x50naranja"> <!--Fila segunda del Tercer cubo-->
+                      <div class="Cubo50x100rojo"></div><div class="Cubo50x100verde"></div>
+                       </div>
+             </div> 
+            </div><!-- Fin Del Tercer Cubo De La Tercera Linea -->
+
+    </footer>
+</div>
+</body>
+</html>
